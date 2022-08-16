@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #ffedd5;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+ul{
+  list-style: none;
+}
+
+.produtos__titulo,
+.produto__tamanho,
+.preco {
+  font-family: 'Roboto Serif', serif;
+  text-transform: uppercase;
+}
+
+header{
+  padding: 32px 0 12px;
+  text-align: center;
+}
+
+.logo{
+  width: 120px;
+}
+
+header,
+section,
+footer {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+h1{
+  font-family: 'Mea Culpa', cursive;
+  font-size: 36px;
+  margin-bottom: 8px;
+}
+
+section h2{
+  background-color: #fed7aa;
+  padding: 8px 16px;
+
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.produtos__descricao,
+.acompanhamento,
+.rodape{
+  margin-bottom: 16px;
+  text-align: justify;
+}
+
+ul li{
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+li .detalhes{
+  max-width: 240px;
+}
+
+.botao{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+  margin: 20px auto;
+  max-width: 50%;
+
+  font-weight: 600;
+
+  color: white;
+  background-color: #0cab98;
+  padding: 5px 8px;
+
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.produtos .botao{
+ min-width: 70%;
+}
+
+.rodape p{
+  font-weight: 600;
+  text-align: justify;
+}
+
+.endereco{
+  text-decoration: underline;
+}
+
+.rodape a{
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
